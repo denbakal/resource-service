@@ -32,6 +32,9 @@ public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter
                 .antMatchers("/ping")
                 .permitAll()
 
+                .antMatchers("/handle")
+                .permitAll()
+
                 .antMatchers("**")
                 .denyAll()
         ;
