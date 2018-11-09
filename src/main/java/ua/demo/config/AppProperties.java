@@ -12,4 +12,6 @@ import org.springframework.stereotype.Component;
 public class AppProperties {
     private String authServer;
     private String serviceServer;
+    private String serviceUsername;
+    private String servicePassword;
 }
